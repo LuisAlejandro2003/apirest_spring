@@ -1,11 +1,6 @@
 package com.basedatos.basededatos.dao;
-
-
-
 import com.basedatos.basededatos.models.ProfileTwoModel;
-
 import java.util.List;
-
 public interface ProfileTwoDao {
 
     List<ProfileTwoModel> getPAll();

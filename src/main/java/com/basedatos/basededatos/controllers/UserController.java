@@ -29,8 +29,6 @@ public class UserController {
      return userService.register(userModel);
     }
 
-
-
     @PutMapping(value = "/update/{id}")
      UserModel updateUserById(@RequestBody UserModel userModel ){
         return userService.update(userModel);
